@@ -19,12 +19,12 @@ object StorageActor{
   }
 
   def create(context: ActorSystem): ActorRef = {
-    context.actorOf(Props[storageActor],"storage")
+    context.actorOf(Props[StorageActor],"storage")
   }
 
 }
 
-class storageActor extends Actor{
+class StorageActor extends Actor{
 import StorageActor._
 
   def receive ={

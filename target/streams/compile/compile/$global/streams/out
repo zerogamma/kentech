@@ -1,9 +1,2 @@
-[0m[[0m[33mwarn[0m] [0m[0m/home/jin/Desktop/kent/src/main/scala/com/kentech/actors/providerActor.scala:16:7: Generated class com.kentech.actors.providerActor differs only in case from com.kentech.actors.ProviderActor.[0m
-[0m[[0m[33mwarn[0m] [0m[0m  Such classes will overwrite one another on case-insensitive filesystems.[0m
-[0m[[0m[33mwarn[0m] [0m[0mclass providerActor extends Actor{[0m
-[0m[[0m[33mwarn[0m] [0m[0m      ^[0m
-[0m[[0m[33mwarn[0m] [0m[0m/home/jin/Desktop/kent/src/main/scala/com/kentech/actors/storeActor.scala:13:7: Generated class com.kentech.actors.storeActor differs only in case from com.kentech.actors.StoreActor.[0m
-[0m[[0m[33mwarn[0m] [0m[0m  Such classes will overwrite one another on case-insensitive filesystems.[0m
-[0m[[0m[33mwarn[0m] [0m[0mclass storeActor extends Actor{[0m
-[0m[[0m[33mwarn[0m] [0m[0m      ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m
+[0m[[0m[33mwarn[0m] [0m[0mthere were 5 feature warnings; re-run with -feature for details[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m

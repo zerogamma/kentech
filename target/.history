@@ -2,3 +2,14 @@ run
 exit
 start
 run
+dist
+compile
+clean
+compile
+compile -feature
+dist
+package
+version
+scalaVersion
+quit
+exit

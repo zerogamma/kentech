@@ -19,12 +19,12 @@ object ProviderActor {
   //Create a pool of providers, the amount is set in the application.conf.
   //Can use random Routing to make it more random.
   def create(context: ActorSystem, Poolsize:Int, storageActorRef:ActorRef): ActorRef = {
-    context.actorOf(RoundRobinPool(Poolsize).props(Props(new providerActor(storageActorRef))),"providers")
+    context.actorOf(RoundRobinPool(Poolsize).props(Props(new ProviderActor(storageActorRef))),"providers")
   }
 }
 
 
-class providerActor (storageActorRef: ActorRef) extends Actor{
+class ProviderActor (storageActorRef: ActorRef) extends Actor{
   implicit val timeout = Timeout(15 seconds)
   val uuid = java.util.UUID.randomUUID().toString()
 

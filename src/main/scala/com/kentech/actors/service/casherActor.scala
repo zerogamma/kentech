@@ -12,12 +12,12 @@ object CasherActor {
   //Create a pool of casher, the amount is set in the application.conf.
   //Can use random Routing to make it more random.
   def create(context: ActorSystem, Poolsize:Int , storeId: String): ActorRef = {
-    context.actorOf(RoundRobinPool(Poolsize).props(Props[casherActor]),s"casher${storeId}")
+    context.actorOf(RoundRobinPool(Poolsize).props(Props[CasherActor]),s"casher${storeId}")
   }
 }
 
 
-class casherActor extends Actor{
+class CasherActor extends Actor{
 
   def receive ={
     case "CreateOrder" =>{

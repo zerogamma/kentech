@@ -7,7 +7,7 @@
 		revision="0.1"
 		conf="runtime-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20181201232120"/>
+		date="20181203062352"/>
 	<dependencies>
 		<module organisation="com.spingo" name="op-rabbit-airbrake_2.12">
 			<revision name="2.1.0" status="release" pubdate="20180203142532" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/SpinGo/op-rabbit" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="26">

@@ -14,11 +14,11 @@ object StoreActor {
   //Create a pool of store, the amount is set in the application.conf.
   //Can use random Routing to make it more random.
   def create(context: ActorSystem, Poolsize: Int): ActorRef = {
-    context.actorOf(RoundRobinPool(Poolsize).props(Props[storeActor]), "stores")
+    context.actorOf(RoundRobinPool(Poolsize).props(Props[StoreActor]), "stores")
   }
 }
 
-class storeActor extends Actor{
+class StoreActor extends Actor{
   val uuid = java.util.UUID.randomUUID().toString()
   implicit val timeout = Timeout(15 seconds)
 
