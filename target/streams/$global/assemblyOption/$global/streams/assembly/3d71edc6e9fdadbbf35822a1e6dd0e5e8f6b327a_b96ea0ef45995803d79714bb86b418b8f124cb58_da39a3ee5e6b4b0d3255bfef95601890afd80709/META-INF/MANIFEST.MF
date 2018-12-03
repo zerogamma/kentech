@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: akka-rabbitmq
+Implementation-Version: 5.0.0
+Specification-Vendor: com.newmotion
+Specification-Title: akka-rabbitmq
+Implementation-Vendor-Id: com.newmotion
+Specification-Version: 5.0.0
+Implementation-URL: https://github.com/NewMotion/akka-rabbitmq
+Implementation-Vendor: com.newmotion
+

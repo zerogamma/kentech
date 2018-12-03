@@ -13,3 +13,23 @@ version
 scalaVersion
 quit
 exit
+clean
+compile
+run
+package
+exit
+clean
+compile
+package
+version
+clean
+compile
+package
+exit
+clean compile
+clean
+compile
+package
+exit
+assembly
+exit

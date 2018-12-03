@@ -142,6 +142,17 @@
 [debug] == resolving dependencies default#kent$sources;0.1->org.scala-lang#scala-library;2.11.6 [compile->master]
 [debug] == resolving dependencies default#kent$sources;0.1->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->org.scala-lang#scala-library;2.11.6 [compile->master]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [compile->compile]
+[debug] sbt-chain: Checking cache for: dependency: com.typesafe#config;1.3.2 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: com.typesafe#config;1.3.2
+[debug] 	found com.typesafe#config;1.3.2 in sbt-chain
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [compile->runtime(*)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [compile->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [compile->master(compile)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [compile->runtime]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [compile->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [compile->compile(*)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [compile->master]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [compile->compile]
 [debug] sbt-chain: Checking cache for: dependency: com.rabbitmq#amqp-client;5.1.1 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: com.rabbitmq#amqp-client;5.1.1
@@ -153,26 +164,6 @@
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [compile->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [compile->compile(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [compile->master]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->default]
-[debug] sbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-actor_2.11;2.5.18 {compile=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], runtime=[default, compile, runtime, default(compile), master, runtime(*), master(compile), compile(*)], test=[default, compile, runtime, default(compile), master, runtime(*), master(compile), compile(*)], compile-internal=[default, compile, runtime, default(compile), master, runtime(*), master(compile), compile(*)], runtime-internal=[default, compile, runtime, default(compile), master, runtime(*), master(compile), compile(*)], test-internal=[default, compile, runtime, default(compile), master, runtime(*), master(compile), compile(*)]}
-[debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.11;2.5.18
-[debug] 	found com.typesafe.akka#akka-actor_2.11;2.5.18 in sbt-chain
-[debug] 	[2.5.18] com.typesafe.akka#akka-actor_2.11;2.5.18
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->master]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->runtime(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->master(compile)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->default(compile)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->master]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->compile(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->master]
 [debug] == resolving dependencies default#kent$sources;0.1->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [compile->compile]
 [debug] sbt-chain: Checking cache for: dependency: com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9
@@ -206,6 +197,22 @@
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.play#play-functional_2.11;2.6.8 [compile->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.play#play-functional_2.11;2.6.8 [compile->compile(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.play#play-functional_2.11;2.6.8 [compile->master]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->compile]
+[debug] sbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-actor_2.11;2.5.9 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master, default(compile)], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master, default(compile)], test=[compile, runtime(*), master(compile), runtime, compile(*), master, default(compile)], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master, default(compile)], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master, default(compile)], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master, default(compile)]}
+[debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.11;2.5.9
+[debug] 	found com.typesafe.akka#akka-actor_2.11;2.5.9 in sbt-chain
+[debug] 	[2.5.9] com.typesafe.akka#akka-actor_2.11;2.5.9
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->runtime(*)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->master(compile)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->runtime]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->default(compile)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->runtime]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->master]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->compile(*)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->master]
 [debug] == resolving dependencies default#kent$sources;0.1->joda-time#joda-time;2.9.9 [compile->compile]
 [debug] sbt-chain: Checking cache for: dependency: joda-time#joda-time;2.9.9 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: joda-time#joda-time;2.9.9
@@ -325,17 +332,6 @@
 [debug] == resolving dependencies default#kent$sources;0.1->com.spingo#op-rabbit-core_2.11;2.1.0 [compile->master]
 [debug] == resolving dependencies default#kent$sources;0.1->com.spingo#op-rabbit-core_2.11;2.1.0 [compile->compile(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.spingo#op-rabbit-core_2.11;2.1.0 [compile->master]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [compile->compile]
-[debug] sbt-chain: Checking cache for: dependency: com.typesafe#config;1.3.3 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master]}
-[debug] sbt-chain: module revision found in cache: com.typesafe#config;1.3.3
-[debug] 	found com.typesafe#config;1.3.3 in sbt-chain
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [compile->runtime(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [compile->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [compile->master(compile)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [compile->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [compile->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [compile->compile(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [compile->master]
 [debug] == resolving dependencies default#kent$sources;0.1->org.json4s#json4s-scalap_2.11;3.5.3 [compile->compile]
 [debug] sbt-chain: Checking cache for: dependency: org.json4s#json4s-scalap_2.11;3.5.3 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: org.json4s#json4s-scalap_2.11;3.5.3
@@ -488,6 +484,14 @@
 [debug] == resolving dependencies default#kent$sources;0.1->org.scala-lang#scala-library;2.11.6 [compile->master]
 [debug] == resolving dependencies default#kent$sources;0.1->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->org.scala-lang#scala-library;2.11.6 [compile->master]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [compile->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [compile->runtime(*)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [compile->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [compile->master(compile)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [compile->runtime]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [compile->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [compile->compile(*)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [compile->master]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [compile->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [compile->runtime(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [compile->compile]
@@ -496,22 +500,6 @@
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [compile->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [compile->compile(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [compile->master]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->default]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->master]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->runtime(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->master(compile)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->default(compile)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->master]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->compile(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->master]
 [debug] == resolving dependencies default#kent$sources;0.1->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [compile->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [compile->runtime(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [compile->compile]
@@ -536,6 +524,18 @@
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.play#play-functional_2.11;2.6.8 [compile->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.play#play-functional_2.11;2.6.8 [compile->compile(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.play#play-functional_2.11;2.6.8 [compile->master]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->runtime(*)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->master(compile)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->runtime]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->default(compile)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->runtime]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->master]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->compile(*)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->master]
 [debug] == resolving dependencies default#kent$sources;0.1->joda-time#joda-time;2.9.9 [compile->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->joda-time#joda-time;2.9.9 [compile->runtime(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->joda-time#joda-time;2.9.9 [compile->compile]
@@ -628,14 +628,6 @@
 [debug] == resolving dependencies default#kent$sources;0.1->com.spingo#op-rabbit-core_2.11;2.1.0 [compile->master]
 [debug] == resolving dependencies default#kent$sources;0.1->com.spingo#op-rabbit-core_2.11;2.1.0 [compile->compile(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.spingo#op-rabbit-core_2.11;2.1.0 [compile->master]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [compile->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [compile->runtime(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [compile->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [compile->master(compile)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [compile->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [compile->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [compile->compile(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [compile->master]
 [debug] == resolving dependencies default#kent$sources;0.1->org.json4s#json4s-scalap_2.11;3.5.3 [compile->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->org.json4s#json4s-scalap_2.11;3.5.3 [compile->runtime(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->org.json4s#json4s-scalap_2.11;3.5.3 [compile->compile]
@@ -773,19 +765,13 @@
 [debug] == resolving dependencies default#kent$sources;0.1->org.scala-lang#scala-library;2.11.6 [runtime->compile(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->org.scala-lang#scala-library;2.11.6 [runtime->master]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [runtime->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [runtime->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [runtime->runtime(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [runtime->runtime(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [runtime->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [runtime->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [runtime->master(compile)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [runtime->master(compile)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [runtime->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [runtime->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [runtime->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [runtime->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [runtime->compile(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [runtime->compile(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [runtime->master]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [runtime->master]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [runtime->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [runtime->runtime(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [runtime->compile]
@@ -794,22 +780,6 @@
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [runtime->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [runtime->compile(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [runtime->master]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime->default]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime->master]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime->runtime(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime->master(compile)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime->default(compile)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime->master]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime->compile(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime->master]
 [debug] == resolving dependencies default#kent$sources;0.1->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [runtime->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [runtime->runtime(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [runtime->compile]
@@ -834,6 +804,18 @@
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.play#play-functional_2.11;2.6.8 [runtime->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.play#play-functional_2.11;2.6.8 [runtime->compile(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.play#play-functional_2.11;2.6.8 [runtime->master]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [runtime->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [runtime->runtime(*)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [runtime->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [runtime->master(compile)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [runtime->runtime]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [runtime->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [runtime->default(compile)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [runtime->runtime]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [runtime->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [runtime->master]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [runtime->compile(*)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [runtime->master]
 [debug] == resolving dependencies default#kent$sources;0.1->joda-time#joda-time;2.9.9 [runtime->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->joda-time#joda-time;2.9.9 [runtime->runtime(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->joda-time#joda-time;2.9.9 [runtime->compile]
@@ -1066,6 +1048,14 @@
 [debug] == resolving dependencies default#kent$sources;0.1->org.scala-lang#scala-library;2.11.6 [compile->master]
 [debug] == resolving dependencies default#kent$sources;0.1->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->org.scala-lang#scala-library;2.11.6 [compile->master]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [compile->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [compile->runtime(*)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [compile->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [compile->master(compile)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [compile->runtime]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [compile->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [compile->compile(*)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [compile->master]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [compile->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [compile->runtime(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [compile->compile]
@@ -1074,22 +1064,6 @@
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [compile->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [compile->compile(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [compile->master]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->default]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->master]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->runtime(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->master(compile)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->default(compile)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->master]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->compile(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->master]
 [debug] == resolving dependencies default#kent$sources;0.1->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [compile->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [compile->runtime(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [compile->compile]
@@ -1114,6 +1088,18 @@
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.play#play-functional_2.11;2.6.8 [compile->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.play#play-functional_2.11;2.6.8 [compile->compile(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.play#play-functional_2.11;2.6.8 [compile->master]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->runtime(*)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->master(compile)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->runtime]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->default(compile)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->runtime]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->master]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->compile(*)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->master]
 [debug] == resolving dependencies default#kent$sources;0.1->joda-time#joda-time;2.9.9 [compile->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->joda-time#joda-time;2.9.9 [compile->runtime(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->joda-time#joda-time;2.9.9 [compile->compile]
@@ -1206,14 +1192,6 @@
 [debug] == resolving dependencies default#kent$sources;0.1->com.spingo#op-rabbit-core_2.11;2.1.0 [compile->master]
 [debug] == resolving dependencies default#kent$sources;0.1->com.spingo#op-rabbit-core_2.11;2.1.0 [compile->compile(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.spingo#op-rabbit-core_2.11;2.1.0 [compile->master]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [compile->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [compile->runtime(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [compile->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [compile->master(compile)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [compile->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [compile->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [compile->compile(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [compile->master]
 [debug] == resolving dependencies default#kent$sources;0.1->org.json4s#json4s-scalap_2.11;3.5.3 [compile->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->org.json4s#json4s-scalap_2.11;3.5.3 [compile->runtime(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->org.json4s#json4s-scalap_2.11;3.5.3 [compile->compile]
@@ -1351,19 +1329,13 @@
 [debug] == resolving dependencies default#kent$sources;0.1->org.scala-lang#scala-library;2.11.6 [runtime->compile(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->org.scala-lang#scala-library;2.11.6 [runtime->master]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [runtime->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [runtime->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [runtime->runtime(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [runtime->runtime(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [runtime->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [runtime->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [runtime->master(compile)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [runtime->master(compile)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [runtime->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [runtime->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [runtime->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [runtime->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [runtime->compile(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [runtime->compile(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [runtime->master]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [runtime->master]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [runtime->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [runtime->runtime(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [runtime->compile]
@@ -1372,22 +1344,6 @@
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [runtime->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [runtime->compile(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [runtime->master]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime->default]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime->master]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime->runtime(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime->master(compile)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime->default(compile)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime->master]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime->compile(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime->master]
 [debug] == resolving dependencies default#kent$sources;0.1->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [runtime->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [runtime->runtime(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [runtime->compile]
@@ -1412,6 +1368,18 @@
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.play#play-functional_2.11;2.6.8 [runtime->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.play#play-functional_2.11;2.6.8 [runtime->compile(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.play#play-functional_2.11;2.6.8 [runtime->master]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [runtime->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [runtime->runtime(*)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [runtime->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [runtime->master(compile)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [runtime->runtime]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [runtime->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [runtime->default(compile)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [runtime->runtime]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [runtime->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [runtime->master]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [runtime->compile(*)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [runtime->master]
 [debug] == resolving dependencies default#kent$sources;0.1->joda-time#joda-time;2.9.9 [runtime->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->joda-time#joda-time;2.9.9 [runtime->runtime(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->joda-time#joda-time;2.9.9 [runtime->compile]
@@ -1641,19 +1609,13 @@
 [debug] == resolving dependencies default#kent$sources;0.1->org.scala-lang#scala-library;2.11.6 [test->compile(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->org.scala-lang#scala-library;2.11.6 [test->master]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [test->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [test->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [test->runtime(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [test->runtime(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [test->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [test->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [test->master(compile)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [test->master(compile)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [test->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [test->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [test->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [test->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [test->compile(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [test->compile(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [test->master]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [test->master]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [test->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [test->runtime(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [test->compile]
@@ -1662,22 +1624,6 @@
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [test->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [test->compile(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [test->master]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [test->default]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [test->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [test->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [test->master]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [test->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [test->runtime(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [test->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [test->master(compile)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [test->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [test->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [test->default(compile)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [test->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [test->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [test->master]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [test->compile(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [test->master]
 [debug] == resolving dependencies default#kent$sources;0.1->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [test->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [test->runtime(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [test->compile]
@@ -1702,6 +1648,18 @@
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.play#play-functional_2.11;2.6.8 [test->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.play#play-functional_2.11;2.6.8 [test->compile(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.play#play-functional_2.11;2.6.8 [test->master]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [test->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [test->runtime(*)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [test->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [test->master(compile)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [test->runtime]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [test->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [test->default(compile)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [test->runtime]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [test->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [test->master]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [test->compile(*)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [test->master]
 [debug] == resolving dependencies default#kent$sources;0.1->joda-time#joda-time;2.9.9 [test->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->joda-time#joda-time;2.9.9 [test->runtime(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->joda-time#joda-time;2.9.9 [test->compile]
@@ -1937,6 +1895,14 @@
 [debug] == resolving dependencies default#kent$sources;0.1->org.scala-lang#scala-library;2.11.6 [compile->master]
 [debug] == resolving dependencies default#kent$sources;0.1->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->org.scala-lang#scala-library;2.11.6 [compile->master]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [compile->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [compile->runtime(*)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [compile->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [compile->master(compile)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [compile->runtime]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [compile->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [compile->compile(*)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [compile->master]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [compile->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [compile->runtime(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [compile->compile]
@@ -1945,22 +1911,6 @@
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [compile->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [compile->compile(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [compile->master]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->default]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->master]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->runtime(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->master(compile)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->default(compile)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->master]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->compile(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->master]
 [debug] == resolving dependencies default#kent$sources;0.1->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [compile->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [compile->runtime(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [compile->compile]
@@ -1985,6 +1935,18 @@
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.play#play-functional_2.11;2.6.8 [compile->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.play#play-functional_2.11;2.6.8 [compile->compile(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.play#play-functional_2.11;2.6.8 [compile->master]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->runtime(*)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->master(compile)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->runtime]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->default(compile)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->runtime]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->master]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->compile(*)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->master]
 [debug] == resolving dependencies default#kent$sources;0.1->joda-time#joda-time;2.9.9 [compile->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->joda-time#joda-time;2.9.9 [compile->runtime(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->joda-time#joda-time;2.9.9 [compile->compile]
@@ -2077,14 +2039,6 @@
 [debug] == resolving dependencies default#kent$sources;0.1->com.spingo#op-rabbit-core_2.11;2.1.0 [compile->master]
 [debug] == resolving dependencies default#kent$sources;0.1->com.spingo#op-rabbit-core_2.11;2.1.0 [compile->compile(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.spingo#op-rabbit-core_2.11;2.1.0 [compile->master]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [compile->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [compile->runtime(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [compile->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [compile->master(compile)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [compile->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [compile->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [compile->compile(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [compile->master]
 [debug] == resolving dependencies default#kent$sources;0.1->org.json4s#json4s-scalap_2.11;3.5.3 [compile->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->org.json4s#json4s-scalap_2.11;3.5.3 [compile->runtime(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->org.json4s#json4s-scalap_2.11;3.5.3 [compile->compile]
@@ -2224,19 +2178,13 @@
 [debug] == resolving dependencies default#kent$sources;0.1->org.scala-lang#scala-library;2.11.6 [compile-internal->compile(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->org.scala-lang#scala-library;2.11.6 [compile-internal->master]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [compile-internal->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [compile-internal->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [compile-internal->runtime(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [compile-internal->runtime(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [compile-internal->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [compile-internal->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [compile-internal->master(compile)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [compile-internal->master(compile)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [compile-internal->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [compile-internal->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [compile-internal->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [compile-internal->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [compile-internal->compile(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [compile-internal->compile(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [compile-internal->master]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [compile-internal->master]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [compile-internal->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [compile-internal->runtime(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [compile-internal->compile]
@@ -2245,22 +2193,6 @@
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [compile-internal->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [compile-internal->compile(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [compile-internal->master]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile-internal->default]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile-internal->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile-internal->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile-internal->master]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile-internal->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile-internal->runtime(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile-internal->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile-internal->master(compile)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile-internal->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile-internal->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile-internal->default(compile)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile-internal->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile-internal->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile-internal->master]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile-internal->compile(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile-internal->master]
 [debug] == resolving dependencies default#kent$sources;0.1->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [compile-internal->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [compile-internal->runtime(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [compile-internal->compile]
@@ -2285,6 +2217,18 @@
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.play#play-functional_2.11;2.6.8 [compile-internal->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.play#play-functional_2.11;2.6.8 [compile-internal->compile(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.play#play-functional_2.11;2.6.8 [compile-internal->master]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile-internal->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile-internal->runtime(*)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile-internal->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile-internal->master(compile)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile-internal->runtime]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile-internal->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile-internal->runtime]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile-internal->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile-internal->master]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile-internal->compile(*)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile-internal->master]
 [debug] == resolving dependencies default#kent$sources;0.1->joda-time#joda-time;2.9.9 [compile-internal->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->joda-time#joda-time;2.9.9 [compile-internal->runtime(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->joda-time#joda-time;2.9.9 [compile-internal->compile]
@@ -2517,6 +2461,14 @@
 [debug] == resolving dependencies default#kent$sources;0.1->org.scala-lang#scala-library;2.11.6 [compile->master]
 [debug] == resolving dependencies default#kent$sources;0.1->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->org.scala-lang#scala-library;2.11.6 [compile->master]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [compile->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [compile->runtime(*)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [compile->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [compile->master(compile)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [compile->runtime]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [compile->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [compile->compile(*)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [compile->master]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [compile->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [compile->runtime(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [compile->compile]
@@ -2525,22 +2477,6 @@
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [compile->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [compile->compile(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [compile->master]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->default]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->master]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->runtime(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->master(compile)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->default(compile)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->master]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->compile(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->master]
 [debug] == resolving dependencies default#kent$sources;0.1->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [compile->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [compile->runtime(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [compile->compile]
@@ -2565,6 +2501,18 @@
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.play#play-functional_2.11;2.6.8 [compile->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.play#play-functional_2.11;2.6.8 [compile->compile(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.play#play-functional_2.11;2.6.8 [compile->master]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->runtime(*)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->master(compile)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->runtime]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->default(compile)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->runtime]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->master]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->compile(*)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->master]
 [debug] == resolving dependencies default#kent$sources;0.1->joda-time#joda-time;2.9.9 [compile->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->joda-time#joda-time;2.9.9 [compile->runtime(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->joda-time#joda-time;2.9.9 [compile->compile]
@@ -2657,14 +2605,6 @@
 [debug] == resolving dependencies default#kent$sources;0.1->com.spingo#op-rabbit-core_2.11;2.1.0 [compile->master]
 [debug] == resolving dependencies default#kent$sources;0.1->com.spingo#op-rabbit-core_2.11;2.1.0 [compile->compile(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.spingo#op-rabbit-core_2.11;2.1.0 [compile->master]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [compile->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [compile->runtime(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [compile->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [compile->master(compile)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [compile->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [compile->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [compile->compile(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [compile->master]
 [debug] == resolving dependencies default#kent$sources;0.1->org.json4s#json4s-scalap_2.11;3.5.3 [compile->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->org.json4s#json4s-scalap_2.11;3.5.3 [compile->runtime(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->org.json4s#json4s-scalap_2.11;3.5.3 [compile->compile]
@@ -2802,19 +2742,13 @@
 [debug] == resolving dependencies default#kent$sources;0.1->org.scala-lang#scala-library;2.11.6 [runtime->compile(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->org.scala-lang#scala-library;2.11.6 [runtime->master]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [runtime->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [runtime->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [runtime->runtime(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [runtime->runtime(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [runtime->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [runtime->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [runtime->master(compile)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [runtime->master(compile)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [runtime->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [runtime->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [runtime->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [runtime->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [runtime->compile(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [runtime->compile(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [runtime->master]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [runtime->master]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [runtime->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [runtime->runtime(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [runtime->compile]
@@ -2823,22 +2757,6 @@
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [runtime->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [runtime->compile(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [runtime->master]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime->default]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime->master]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime->runtime(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime->master(compile)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime->default(compile)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime->master]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime->compile(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime->master]
 [debug] == resolving dependencies default#kent$sources;0.1->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [runtime->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [runtime->runtime(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [runtime->compile]
@@ -2863,6 +2781,18 @@
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.play#play-functional_2.11;2.6.8 [runtime->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.play#play-functional_2.11;2.6.8 [runtime->compile(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.play#play-functional_2.11;2.6.8 [runtime->master]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [runtime->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [runtime->runtime(*)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [runtime->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [runtime->master(compile)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [runtime->runtime]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [runtime->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [runtime->default(compile)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [runtime->runtime]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [runtime->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [runtime->master]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [runtime->compile(*)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [runtime->master]
 [debug] == resolving dependencies default#kent$sources;0.1->joda-time#joda-time;2.9.9 [runtime->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->joda-time#joda-time;2.9.9 [runtime->runtime(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->joda-time#joda-time;2.9.9 [runtime->compile]
@@ -3093,19 +3023,13 @@
 [debug] == resolving dependencies default#kent$sources;0.1->org.scala-lang#scala-library;2.11.6 [runtime-internal->compile(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->org.scala-lang#scala-library;2.11.6 [runtime-internal->master]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [runtime-internal->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [runtime-internal->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [runtime-internal->runtime(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [runtime-internal->runtime(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [runtime-internal->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [runtime-internal->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [runtime-internal->master(compile)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [runtime-internal->master(compile)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [runtime-internal->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [runtime-internal->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [runtime-internal->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [runtime-internal->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [runtime-internal->compile(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [runtime-internal->compile(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [runtime-internal->master]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [runtime-internal->master]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [runtime-internal->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [runtime-internal->runtime(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [runtime-internal->compile]
@@ -3114,22 +3038,6 @@
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [runtime-internal->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [runtime-internal->compile(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [runtime-internal->master]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime-internal->default]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime-internal->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime-internal->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime-internal->master]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime-internal->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime-internal->runtime(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime-internal->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime-internal->master(compile)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime-internal->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime-internal->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime-internal->default(compile)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime-internal->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime-internal->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime-internal->master]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime-internal->compile(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime-internal->master]
 [debug] == resolving dependencies default#kent$sources;0.1->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [runtime-internal->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [runtime-internal->runtime(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [runtime-internal->compile]
@@ -3154,6 +3062,18 @@
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.play#play-functional_2.11;2.6.8 [runtime-internal->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.play#play-functional_2.11;2.6.8 [runtime-internal->compile(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.play#play-functional_2.11;2.6.8 [runtime-internal->master]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [runtime-internal->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [runtime-internal->runtime(*)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [runtime-internal->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [runtime-internal->master(compile)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [runtime-internal->runtime]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [runtime-internal->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [runtime-internal->runtime]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [runtime-internal->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [runtime-internal->master]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [runtime-internal->compile(*)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [runtime-internal->master]
 [debug] == resolving dependencies default#kent$sources;0.1->joda-time#joda-time;2.9.9 [runtime-internal->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->joda-time#joda-time;2.9.9 [runtime-internal->runtime(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->joda-time#joda-time;2.9.9 [runtime-internal->compile]
@@ -3387,6 +3307,14 @@
 [debug] == resolving dependencies default#kent$sources;0.1->org.scala-lang#scala-library;2.11.6 [compile->master]
 [debug] == resolving dependencies default#kent$sources;0.1->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->org.scala-lang#scala-library;2.11.6 [compile->master]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [compile->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [compile->runtime(*)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [compile->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [compile->master(compile)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [compile->runtime]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [compile->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [compile->compile(*)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [compile->master]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [compile->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [compile->runtime(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [compile->compile]
@@ -3395,22 +3323,6 @@
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [compile->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [compile->compile(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [compile->master]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->default]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->master]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->runtime(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->master(compile)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->default(compile)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->master]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->compile(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [compile->master]
 [debug] == resolving dependencies default#kent$sources;0.1->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [compile->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [compile->runtime(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [compile->compile]
@@ -3435,6 +3347,18 @@
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.play#play-functional_2.11;2.6.8 [compile->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.play#play-functional_2.11;2.6.8 [compile->compile(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.play#play-functional_2.11;2.6.8 [compile->master]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->runtime(*)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->master(compile)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->runtime]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->default(compile)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->runtime]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->master]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->compile(*)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [compile->master]
 [debug] == resolving dependencies default#kent$sources;0.1->joda-time#joda-time;2.9.9 [compile->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->joda-time#joda-time;2.9.9 [compile->runtime(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->joda-time#joda-time;2.9.9 [compile->compile]
@@ -3527,14 +3451,6 @@
 [debug] == resolving dependencies default#kent$sources;0.1->com.spingo#op-rabbit-core_2.11;2.1.0 [compile->master]
 [debug] == resolving dependencies default#kent$sources;0.1->com.spingo#op-rabbit-core_2.11;2.1.0 [compile->compile(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.spingo#op-rabbit-core_2.11;2.1.0 [compile->master]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [compile->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [compile->runtime(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [compile->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [compile->master(compile)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [compile->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [compile->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [compile->compile(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [compile->master]
 [debug] == resolving dependencies default#kent$sources;0.1->org.json4s#json4s-scalap_2.11;3.5.3 [compile->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->org.json4s#json4s-scalap_2.11;3.5.3 [compile->runtime(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->org.json4s#json4s-scalap_2.11;3.5.3 [compile->compile]
@@ -3672,19 +3588,13 @@
 [debug] == resolving dependencies default#kent$sources;0.1->org.scala-lang#scala-library;2.11.6 [runtime->compile(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->org.scala-lang#scala-library;2.11.6 [runtime->master]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [runtime->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [runtime->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [runtime->runtime(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [runtime->runtime(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [runtime->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [runtime->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [runtime->master(compile)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [runtime->master(compile)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [runtime->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [runtime->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [runtime->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [runtime->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [runtime->compile(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [runtime->compile(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [runtime->master]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [runtime->master]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [runtime->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [runtime->runtime(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [runtime->compile]
@@ -3693,22 +3603,6 @@
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [runtime->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [runtime->compile(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [runtime->master]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime->default]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime->master]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime->runtime(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime->master(compile)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime->default(compile)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime->master]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime->compile(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [runtime->master]
 [debug] == resolving dependencies default#kent$sources;0.1->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [runtime->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [runtime->runtime(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [runtime->compile]
@@ -3733,6 +3627,18 @@
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.play#play-functional_2.11;2.6.8 [runtime->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.play#play-functional_2.11;2.6.8 [runtime->compile(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.play#play-functional_2.11;2.6.8 [runtime->master]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [runtime->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [runtime->runtime(*)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [runtime->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [runtime->master(compile)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [runtime->runtime]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [runtime->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [runtime->default(compile)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [runtime->runtime]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [runtime->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [runtime->master]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [runtime->compile(*)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [runtime->master]
 [debug] == resolving dependencies default#kent$sources;0.1->joda-time#joda-time;2.9.9 [runtime->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->joda-time#joda-time;2.9.9 [runtime->runtime(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->joda-time#joda-time;2.9.9 [runtime->compile]
@@ -3962,19 +3868,13 @@
 [debug] == resolving dependencies default#kent$sources;0.1->org.scala-lang#scala-library;2.11.6 [test->compile(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->org.scala-lang#scala-library;2.11.6 [test->master]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [test->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [test->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [test->runtime(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [test->runtime(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [test->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [test->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [test->master(compile)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [test->master(compile)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [test->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [test->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [test->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [test->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [test->compile(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [test->compile(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [test->master]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [test->master]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [test->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [test->runtime(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [test->compile]
@@ -3983,22 +3883,6 @@
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [test->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [test->compile(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [test->master]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [test->default]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [test->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [test->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [test->master]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [test->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [test->runtime(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [test->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [test->master(compile)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [test->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [test->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [test->default(compile)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [test->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [test->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [test->master]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [test->compile(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [test->master]
 [debug] == resolving dependencies default#kent$sources;0.1->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [test->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [test->runtime(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [test->compile]
@@ -4023,6 +3907,18 @@
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.play#play-functional_2.11;2.6.8 [test->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.play#play-functional_2.11;2.6.8 [test->compile(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.play#play-functional_2.11;2.6.8 [test->master]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [test->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [test->runtime(*)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [test->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [test->master(compile)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [test->runtime]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [test->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [test->default(compile)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [test->runtime]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [test->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [test->master]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [test->compile(*)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [test->master]
 [debug] == resolving dependencies default#kent$sources;0.1->joda-time#joda-time;2.9.9 [test->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->joda-time#joda-time;2.9.9 [test->runtime(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->joda-time#joda-time;2.9.9 [test->compile]
@@ -4254,19 +4150,13 @@
 [debug] == resolving dependencies default#kent$sources;0.1->org.scala-lang#scala-library;2.11.6 [test-internal->compile(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->org.scala-lang#scala-library;2.11.6 [test-internal->master]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [test-internal->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [test-internal->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [test-internal->runtime(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [test-internal->runtime(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [test-internal->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [test-internal->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [test-internal->master(compile)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [test-internal->master(compile)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [test-internal->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [test-internal->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [test-internal->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [test-internal->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [test-internal->compile(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [test-internal->compile(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.2 [test-internal->master]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe#config;1.3.3 [test-internal->master]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [test-internal->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [test-internal->runtime(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [test-internal->compile]
@@ -4275,22 +4165,6 @@
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [test-internal->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [test-internal->compile(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.rabbitmq#amqp-client;5.1.1 [test-internal->master]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [test-internal->default]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [test-internal->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [test-internal->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [test-internal->master]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [test-internal->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [test-internal->runtime(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [test-internal->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [test-internal->master(compile)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [test-internal->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [test-internal->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [test-internal->default(compile)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [test-internal->runtime]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [test-internal->compile]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [test-internal->master]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [test-internal->compile(*)]
-[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.18 [test-internal->master]
 [debug] == resolving dependencies default#kent$sources;0.1->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [test-internal->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [test-internal->runtime(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9 [test-internal->compile]
@@ -4315,6 +4189,18 @@
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.play#play-functional_2.11;2.6.8 [test-internal->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.play#play-functional_2.11;2.6.8 [test-internal->compile(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.play#play-functional_2.11;2.6.8 [test-internal->master]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [test-internal->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [test-internal->runtime(*)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [test-internal->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [test-internal->master(compile)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [test-internal->runtime]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [test-internal->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [test-internal->default(compile)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [test-internal->runtime]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [test-internal->compile]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [test-internal->master]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [test-internal->compile(*)]
+[debug] == resolving dependencies default#kent$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.5.9 [test-internal->master]
 [debug] == resolving dependencies default#kent$sources;0.1->joda-time#joda-time;2.9.9 [test-internal->compile]
 [debug] == resolving dependencies default#kent$sources;0.1->joda-time#joda-time;2.9.9 [test-internal->runtime(*)]
 [debug] == resolving dependencies default#kent$sources;0.1->joda-time#joda-time;2.9.9 [test-internal->compile]
@@ -4511,155 +4397,41 @@
 [debug] == resolving dependencies default#kent$sources;0.1->org.scala-lang#scala-reflect;2.11.6 [scala-tool->master]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 		tried /home/jin/.ivy2/local/com.typesafe.play/play-json_2.11/2.6.8/srcs/play-json_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.11/2.6.8/play-json_2.11-2.6.8-sources.jar
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-json_2.11;2.6.8!play-json_2.11.jar(src)
+[debug] 	[NOT REQUIRED] joda-time#joda-time;2.9.9!joda-time.jar(src)
+[debug] 	[NOT REQUIRED] com.spingo#op-rabbit-core_2.11;2.1.0!op-rabbit-core_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.json4s#json4s-scalap_2.11;3.5.3!json4s-scalap_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.chuusai#shapeless_2.11;2.3.3!shapeless_2.11.jar(src)
 [debug] 	[NOT REQUIRED] com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.8.9!jackson-datatype-jsr310.jar(src)
 [debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.25!slf4j-api.jar(src)
-[debug] 	[NOT REQUIRED] commons-logging#commons-logging;1.1.1!commons-logging.jar(src)
-[debug] 		tried /home/jin/.ivy2/local/org.typelevel/macro-compat_2.11/1.1.1/srcs/macro-compat_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.11/1.1.1/macro-compat_2.11-1.1.1-sources.jar
-[debug] 		tried /home/jin/.ivy2/local/org.json4s/json4s-scalap_2.11/3.5.3/srcs/json4s-scalap_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/json4s/json4s-scalap_2.11/3.5.3/json4s-scalap_2.11-3.5.3-sources.jar
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-java8-compat_2.11;0.7.0!scala-java8-compat_2.11.jar(src)
-[debug] 		tried /home/jin/.ivy2/local/com.spingo/op-rabbit-play-json_2.11/2.1.0/srcs/op-rabbit-play-json_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/spingo/op-rabbit-play-json_2.11/2.1.0/op-rabbit-play-json_2.11-2.1.0-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.11/1.1.1/macro-compat_2.11-1.1.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.11/1.1.1/macro-compat_2.11-1.1.1-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.11/2.6.8/play-json_2.11-2.6.8-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.11/2.6.8/play-json_2.11-2.6.8-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/json4s/json4s-scalap_2.11/3.5.3/json4s-scalap_2.11-3.5.3-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/json4s/json4s-scalap_2.11/3.5.3/json4s-scalap_2.11-3.5.3-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/spingo/op-rabbit-play-json_2.11/2.1.0/op-rabbit-play-json_2.11-2.1.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/spingo/op-rabbit-play-json_2.11/2.1.0/op-rabbit-play-json_2.11-2.1.0-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.11/1.1.1/macro-compat_2.11-1.1.1-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/json4s/json4s-scalap_2.11/3.5.3/json4s-scalap_2.11-3.5.3-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.11/2.6.8/play-json_2.11-2.6.8-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/spingo/op-rabbit-play-json_2.11/2.1.0/op-rabbit-play-json_2.11-2.1.0-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.11/1.1.1/macro-compat_2.11-1.1.1-sources.jar
-[info] 	[SUCCESSFUL ] org.typelevel#macro-compat_2.11;1.1.1!macro-compat_2.11.jar(src) (703ms)
-[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-annotations;2.8.9!jackson-annotations.jar(src)
-[debug] 		tried /home/jin/.ivy2/local/com.spingo/op-rabbit-airbrake_2.11/2.1.0/srcs/op-rabbit-airbrake_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/spingo/op-rabbit-airbrake_2.11/2.1.0/op-rabbit-airbrake_2.11-2.1.0-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/json4s/json4s-scalap_2.11/3.5.3/json4s-scalap_2.11-3.5.3-sources.jar
-[info] 	[SUCCESSFUL ] org.json4s#json4s-scalap_2.11;3.5.3!json4s-scalap_2.11.jar(src) (745ms)
-[debug] 		tried /home/jin/.ivy2/local/org.scala-lang/scala-reflect/2.11.6/srcs/scala-reflect-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.6/scala-reflect-2.11.6-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.11/2.6.8/play-json_2.11-2.6.8-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-json_2.11;2.6.8!play-json_2.11.jar(src) (769ms)
-[debug] 		tried /home/jin/.ivy2/local/com.chuusai/shapeless_2.11/2.3.3/srcs/shapeless_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/chuusai/shapeless_2.11/2.3.3/shapeless_2.11-2.3.3-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/spingo/op-rabbit-play-json_2.11/2.1.0/op-rabbit-play-json_2.11-2.1.0-sources.jar
-[info] 	[SUCCESSFUL ] com.spingo#op-rabbit-play-json_2.11;2.1.0!op-rabbit-play-json_2.11.jar(src) (840ms)
-[debug] 		tried /home/jin/.ivy2/local/org.scala-lang/scala-library/2.11.6/srcs/scala-library-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.6/scala-library-2.11.6-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.6/scala-reflect-2.11.6-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.6/scala-reflect-2.11.6-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/chuusai/shapeless_2.11/2.3.3/shapeless_2.11-2.3.3-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/chuusai/shapeless_2.11/2.3.3/shapeless_2.11-2.3.3-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/spingo/op-rabbit-airbrake_2.11/2.1.0/op-rabbit-airbrake_2.11-2.1.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/spingo/op-rabbit-airbrake_2.11/2.1.0/op-rabbit-airbrake_2.11-2.1.0-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.6/scala-library-2.11.6-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.6/scala-library-2.11.6-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/chuusai/shapeless_2.11/2.3.3/shapeless_2.11-2.3.3-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/spingo/op-rabbit-airbrake_2.11/2.1.0/op-rabbit-airbrake_2.11-2.1.0-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/chuusai/shapeless_2.11/2.3.3/shapeless_2.11-2.3.3-sources.jar
-[info] 	[SUCCESSFUL ] com.chuusai#shapeless_2.11;2.3.3!shapeless_2.11.jar(src) (721ms)
 [debug] 	[NOT REQUIRED] com.thoughtworks.paranamer#paranamer;2.8!paranamer.jar(src)
-[debug] 		tried /home/jin/.ivy2/local/org.json4s/json4s-core_2.11/3.5.3/srcs/json4s-core_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/json4s/json4s-core_2.11/3.5.3/json4s-core_2.11-3.5.3-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/spingo/op-rabbit-airbrake_2.11/2.1.0/op-rabbit-airbrake_2.11-2.1.0-sources.jar
-[info] 	[SUCCESSFUL ] com.spingo#op-rabbit-airbrake_2.11;2.1.0!op-rabbit-airbrake_2.11.jar(src) (917ms)
-[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.8.9!jackson-core.jar(src)
-[debug] 		tried /home/jin/.ivy2/local/com.spingo/op-rabbit-core_2.11/2.1.0/srcs/op-rabbit-core_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/spingo/op-rabbit-core_2.11/2.1.0/op-rabbit-core_2.11-2.1.0-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/json4s/json4s-core_2.11/3.5.3/json4s-core_2.11-3.5.3-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/json4s/json4s-core_2.11/3.5.3/json4s-core_2.11-3.5.3-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/spingo/op-rabbit-core_2.11/2.1.0/op-rabbit-core_2.11-2.1.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/spingo/op-rabbit-core_2.11/2.1.0/op-rabbit-core_2.11-2.1.0-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.6/scala-library-2.11.6-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/json4s/json4s-core_2.11/3.5.3/json4s-core_2.11-3.5.3-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/spingo/op-rabbit-core_2.11/2.1.0/op-rabbit-core_2.11-2.1.0-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.6/scala-library-2.11.6-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#scala-library;2.11.6!scala-library.jar(src) (1321ms)
-[debug] 	[NOT REQUIRED] com.rabbitmq#amqp-client;5.1.1!amqp-client.jar(src)
-[debug] 		tried /home/jin/.ivy2/local/com.typesafe.akka/akka-actor_2.11/2.5.18/srcs/akka-actor_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.5.18/akka-actor_2.11-2.5.18-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/json4s/json4s-core_2.11/3.5.3/json4s-core_2.11-3.5.3-sources.jar
-[info] 	[SUCCESSFUL ] org.json4s#json4s-core_2.11;3.5.3!json4s-core_2.11.jar(src) (712ms)
+[debug] 	[NOT REQUIRED] org.json4s#json4s-core_2.11;3.5.3!json4s-core_2.11.jar(src)
+[debug] 	[NOT REQUIRED] commons-logging#commons-logging;1.1.1!commons-logging.jar(src)
 [debug] 	[NOT REQUIRED] log4j#log4j;1.2.14!log4j.jar(src)
-[debug] 		tried /home/jin/.ivy2/local/org.json4s/json4s-ast_2.11/3.5.3/srcs/json4s-ast_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/json4s/json4s-ast_2.11/3.5.3/json4s-ast_2.11-3.5.3-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/json4s/json4s-ast_2.11/3.5.3/json4s-ast_2.11-3.5.3-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/json4s/json4s-ast_2.11/3.5.3/json4s-ast_2.11-3.5.3-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.5.18/akka-actor_2.11-2.5.18-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.5.18/akka-actor_2.11-2.5.18-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/spingo/op-rabbit-core_2.11/2.1.0/op-rabbit-core_2.11-2.1.0-sources.jar
-[info] 	[SUCCESSFUL ] com.spingo#op-rabbit-core_2.11;2.1.0!op-rabbit-core_2.11.jar(src) (775ms)
-[debug] 	[NOT REQUIRED] com.typesafe#config;1.3.3!config.jar(src)
-[debug] 		tried /home/jin/.ivy2/local/org.scala-lang/scala-compiler/2.11.6/srcs/scala-compiler-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.6/scala-compiler-2.11.6-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.6/scala-compiler-2.11.6-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.6/scala-compiler-2.11.6-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/json4s/json4s-ast_2.11/3.5.3/json4s-ast_2.11-3.5.3-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.6/scala-reflect-2.11.6-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/json4s/json4s-ast_2.11/3.5.3/json4s-ast_2.11-3.5.3-sources.jar
-[info] 	[SUCCESSFUL ] org.json4s#json4s-ast_2.11;3.5.3!json4s-ast_2.11.jar(src) (698ms)
-[debug] 		tried /home/jin/.ivy2/local/com.spingo/op-rabbit-json4s_2.11/2.1.0/srcs/op-rabbit-json4s_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/spingo/op-rabbit-json4s_2.11/2.1.0/op-rabbit-json4s_2.11-2.1.0-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.5.18/akka-actor_2.11-2.5.18-sources.jar.sha1
-[info] downloading https://repo1.maven.org/maven2/com/spingo/op-rabbit-json4s_2.11/2.1.0/op-rabbit-json4s_2.11-2.1.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/spingo/op-rabbit-json4s_2.11/2.1.0/op-rabbit-json4s_2.11-2.1.0-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.6/scala-reflect-2.11.6-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.11.6!scala-reflect.jar(src) (2431ms)
-[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-databind;2.8.9!jackson-databind.jar(src)
+[debug] 	[NOT REQUIRED] org.typelevel#macro-compat_2.11;1.1.1!macro-compat_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.json4s#json4s-ast_2.11;3.5.3!json4s-ast_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-annotations;2.8.9!jackson-annotations.jar(src)
+[debug] 	[NOT REQUIRED] com.spingo#op-rabbit-json4s_2.11;2.1.0!op-rabbit-json4s_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.spingo#op-rabbit-airbrake_2.11;2.1.0!op-rabbit-airbrake_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.8.9!jackson-core.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-java8-compat_2.11;0.7.0!scala-java8-compat_2.11.jar(src)
 [debug] 	[NOT REQUIRED] io.airbrake#airbrake-java;2.2.8!airbrake-java.jar(src)
-[debug] 		tried /home/jin/.ivy2/local/org.scala-lang.modules/scala-xml_2.11/1.0.3/srcs/scala-xml_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.3/scala-xml_2.11-1.0.3-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.5.18/akka-actor_2.11-2.5.18-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-actor_2.11;2.5.18!akka-actor_2.11.jar(src) (1062ms)
-[debug] 	[NOT REQUIRED] com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9!jackson-datatype-jdk8.jar(src)
-[debug] 		tried /home/jin/.ivy2/local/org.scala-lang.modules/scala-xml_2.11/1.0.6/srcs/scala-xml_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.6/scala-xml_2.11-1.0.6-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.3/scala-xml_2.11-1.0.3-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.3/scala-xml_2.11-1.0.3-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.6/scala-xml_2.11-1.0.6-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.6/scala-xml_2.11-1.0.6-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/spingo/op-rabbit-json4s_2.11/2.1.0/op-rabbit-json4s_2.11-2.1.0-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.6/scala-xml_2.11-1.0.6-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/spingo/op-rabbit-json4s_2.11/2.1.0/op-rabbit-json4s_2.11-2.1.0-sources.jar
-[info] 	[SUCCESSFUL ] com.spingo#op-rabbit-json4s_2.11;2.1.0!op-rabbit-json4s_2.11.jar(src) (840ms)
-[debug] 		tried /home/jin/.ivy2/local/com.newmotion/akka-rabbitmq_2.11/5.0.0/srcs/akka-rabbitmq_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/newmotion/akka-rabbitmq_2.11/5.0.0/akka-rabbitmq_2.11-5.0.0-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/newmotion/akka-rabbitmq_2.11/5.0.0/akka-rabbitmq_2.11-5.0.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/newmotion/akka-rabbitmq_2.11/5.0.0/akka-rabbitmq_2.11-5.0.0-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.3/scala-xml_2.11-1.0.3-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.6/scala-xml_2.11-1.0.6-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.11;1.0.6!scala-xml_2.11.jar(src) (726ms)
-[debug] 		tried /home/jin/.ivy2/local/com.typesafe.play/play-functional_2.11/2.6.8/srcs/play-functional_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.11/2.6.8/play-functional_2.11-2.6.8-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.6/scala-compiler-2.11.6-sources.jar.sha1
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.11/2.6.8/play-functional_2.11-2.6.8-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.11/2.6.8/play-functional_2.11-2.6.8-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.3/scala-xml_2.11-1.0.3-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.11;1.0.3!scala-xml_2.11.jar(src) (1026ms)
-[debug] 		tried /home/jin/.ivy2/local/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.3/srcs/scala-parser-combinators_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.3/scala-parser-combinators_2.11-1.0.3-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/newmotion/akka-rabbitmq_2.11/5.0.0/akka-rabbitmq_2.11-5.0.0-sources.jar.sha1
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.3/scala-parser-combinators_2.11-1.0.3-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.3/scala-parser-combinators_2.11-1.0.3-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.6/scala-compiler-2.11.6-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.11.6!scala-compiler.jar(src) (2032ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.11/2.6.8/play-functional_2.11-2.6.8-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/newmotion/akka-rabbitmq_2.11/5.0.0/akka-rabbitmq_2.11-5.0.0-sources.jar
-[info] 	[SUCCESSFUL ] com.newmotion#akka-rabbitmq_2.11;5.0.0!akka-rabbitmq_2.11.jar(src) (756ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.3/scala-parser-combinators_2.11-1.0.3-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.11/2.6.8/play-functional_2.11-2.6.8-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-functional_2.11;2.6.8!play-functional_2.11.jar(src) (804ms)
-[debug] 	[NOT REQUIRED] joda-time#joda-time;2.9.9!joda-time.jar(src)
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.3/scala-parser-combinators_2.11-1.0.3-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3!scala-parser-combinators_2.11.jar(src) (728ms)
+[debug] 	[NOT REQUIRED] com.spingo#op-rabbit-play-json_2.11;2.1.0!op-rabbit-play-json_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.6!scala-compiler.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.6!scala-library.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.3!scala-xml_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3!scala-parser-combinators_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe#config;1.3.2!config.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(src)
-[debug] :: resolution report :: resolve 255ms :: artifacts dl 4946ms
+[debug] 	[NOT REQUIRED] com.rabbitmq#amqp-client;5.1.1!amqp-client.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.6!scala-reflect.jar(src)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.8.9!jackson-datatype-jdk8.jar(src)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-databind;2.8.9!jackson-databind.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.6!scala-xml_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-functional_2.11;2.6.8!play-functional_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.11;2.5.9!akka-actor_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.newmotion#akka-rabbitmq_2.11;5.0.0!akka-rabbitmq_2.11.jar(src)
+[debug] :: resolution report :: resolve 297ms :: artifacts dl 9ms
 [debug] 	report for default#kent$sources;0.1 compile produced in /home/jin/Desktop/kent/target/scala-2.11/resolution-cache/reports/default-kent$sources-compile.xml
 [debug] 	report for default#kent$sources;0.1 runtime produced in /home/jin/Desktop/kent/target/scala-2.11/resolution-cache/reports/default-kent$sources-runtime.xml
 [debug] 	report for default#kent$sources;0.1 test produced in /home/jin/Desktop/kent/target/scala-2.11/resolution-cache/reports/default-kent$sources-test.xml
@@ -4671,4 +4443,4 @@
 [debug] 	report for default#kent$sources;0.1 plugin produced in /home/jin/Desktop/kent/target/scala-2.11/resolution-cache/reports/default-kent$sources-plugin.xml
 [debug] 	report for default#kent$sources;0.1 pom produced in /home/jin/Desktop/kent/target/scala-2.11/resolution-cache/reports/default-kent$sources-pom.xml
 [debug] 	report for default#kent$sources;0.1 scala-tool produced in /home/jin/Desktop/kent/target/scala-2.11/resolution-cache/reports/default-kent$sources-scala-tool.xml
-[debug] 	resolve done (255ms resolve - 4946ms download)
+[debug] 	resolve done (297ms resolve - 9ms download)

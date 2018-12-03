@@ -4,7 +4,7 @@
 		module="kent_2.11"
 		revision="0.1"
 		status="integration"
-		publication="20181203063253"
+		publication="20181203065845"
 	>
 		<description>
 		kent
@@ -37,6 +37,9 @@
 		<dependency org="com.spingo" name="op-rabbit-json4s_2.11" rev="2.1.0" conf="compile->default(compile)"/>
 		<dependency org="com.spingo" name="op-rabbit-airbrake_2.11" rev="2.1.0" conf="compile->default(compile)"/>
 		<dependency org="org.slf4j" name="slf4j-api" rev="1.7.25" conf="compile->default(compile)"/>
-		<dependency org="com.typesafe.akka" name="akka-actor_2.11" rev="2.5.18" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-actor_2.11" rev="2.4.11" conf="compile->default(compile)">
+			<artifact name="akka-actor_2.11" type="src" ext="jar" conf="*" e:classifier="sources"/>
+			<artifact name="akka-actor_2.11" type="jar" ext="jar" conf="*"/>
+		</dependency>
 	</dependencies>
 </ivy-module>

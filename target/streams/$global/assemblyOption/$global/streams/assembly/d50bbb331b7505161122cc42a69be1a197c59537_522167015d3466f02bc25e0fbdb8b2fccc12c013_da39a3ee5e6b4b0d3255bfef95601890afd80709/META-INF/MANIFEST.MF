@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: op-rabbit-airbrake
+Implementation-Version: 2.1.0
+Specification-Vendor: com.spingo
+Specification-Title: op-rabbit-airbrake
+Implementation-Vendor-Id: com.spingo
+Specification-Version: 2.1.0
+Implementation-URL: https://github.com/SpinGo/op-rabbit
+Implementation-Vendor: com.spingo
+
