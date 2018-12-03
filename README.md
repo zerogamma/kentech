@@ -6,7 +6,7 @@ The App can customize by modifying the MainApp.scala
 
 To start the app you can use:
 The function createPurchase(n) will try to simulate the transaction. (n is the number of transanctions.)
-Or actor ! "restock" this will refresh the stock of the groceries.
+Or (actor ! "restock") this will refresh the stock of the groceries.
 
 Other thing that can be change is the amount of actors (provider, store, cashiers, groceries) 
 this settings are in the application.conf
