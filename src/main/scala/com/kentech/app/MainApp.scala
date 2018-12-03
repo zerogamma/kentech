@@ -19,6 +19,12 @@ object MainApp extends App {
 
   val actor = MainActor.create(actorSystem)
 
+  def logWithSleep(msg:String){
+    //Not advised to block an actor. No better option to display the println of steps.
+    Thread.sleep(1000)
+    println(msg)
+  }
+
   def createPurchase(amount:Int) {
     for (i <- 0 to amount){
       val result = actor ? "buy"

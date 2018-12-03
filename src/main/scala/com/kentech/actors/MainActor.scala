@@ -5,7 +5,7 @@ import akka.actor.{Actor, ActorRef, ActorSystem, Props}
 import akka.pattern.{ask, pipe}
 import akka.util.Timeout
 import com.kentech.actors.service._
-import com.kentech.app.MainApp.{actorSystem, conf}
+import com.kentech.app.MainApp.{actorSystem, conf, logWithSleep}
 
 import scala.collection.mutable.ListBuffer
 import scala.concurrent.Await
@@ -60,7 +60,7 @@ class MainActor extends Actor{
   def receive ={
     //Main function to buy a grocery.
     case "buy" => {
-      println("taking Order:")
+      logWithSleep("taking Order:")
 
       //Extra println to get amount of grocery available
       if (debug) {
@@ -72,7 +72,7 @@ class MainActor extends Actor{
       val order = storeActor ? "makeOrder"
       val orderGrocery = Await.result(order,timeout.duration)
 
-      println(s"Creating Order: ${orderGrocery.asInstanceOf[OrderGrocery].orderId}")
+      logWithSleep(s"Create Order: ${orderGrocery.asInstanceOf[OrderGrocery].orderId}")
 
       val providerOrder = providerActor ? orderGrocery
       //Using Await and not onComplete/onSuccess/onFailure because need to give response to the sender.
@@ -80,9 +80,10 @@ class MainActor extends Actor{
 
       providerOrderGrocery match {
         case Failure => {
-          sender() ! "Failed"
+          sender() ! "Provider Unavailable"
         }
         case _ =>{
+          logWithSleep(s"Order Ready, Sending Order")
           providerOrder pipeTo sender()
         }
       }
