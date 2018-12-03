@@ -6,7 +6,8 @@ The App can customize by modifying the MainApp.scala
 
 To start the app you can use:
 The function createPurchase(n) will try to simulate the transaction. (n is the number of transanctions.)
-Or (actor ! "restock") this will refresh the stock of the groceries.
+(actor ! "restock") this will refresh the stock of the groceries.
+The App have RemoteActor the address will be akka.tcp://SupplyChain@127.0.0.1:5150
 
 Other thing that can be change is the amount of actors (provider, store, cashiers, groceries) 
 this settings are in the application.conf
