@@ -13,11 +13,13 @@ object MainApp extends App {
 
   implicit val timeout = Timeout(15 seconds)
 
-  val actorSystem = ActorSystem("SupplyChain")
-
+  val remoteConfig = ConfigFactory.load.getConfig("RemoteService")
   val conf: Config = ConfigFactory.load().getConfig("dev").resolve()
 
+  val actorSystem = ActorSystem("SupplyChain",remoteConfig)
   val actor = MainActor.create(actorSystem)
+
+  println(s"Actor path: ${actor.path}")
 
   def logWithSleep(msg:String){
     //Not advised to block an actor. No better option to display the println of steps.

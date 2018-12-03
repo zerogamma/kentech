@@ -17,7 +17,7 @@ import scala.util.Random
 ///Main father Actor to coordinate the actors
 object MainActor {
   def create(context: ActorSystem): ActorRef = {
-    context.actorOf(Props[MainActor])
+    context.actorOf(Props[MainActor],"remote-MainActor")
   }
 }
 
